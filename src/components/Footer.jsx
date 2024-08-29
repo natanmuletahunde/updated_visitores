@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 /* Footer.jsx */
 import React from 'react';
-import './Footer.css'; // Import a CSS file for custom animations
+// Import a CSS file for custom animations
 
 const Footer = () => {
   return (
@@ -16,3 +16,8 @@ const Footer = () => {
 };
 
 export default Footer;
+
+
+
+
+

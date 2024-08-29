@@ -6,7 +6,7 @@ import Search from '../components/Search'
 import Blogs from '../components/Blogs'
 import Footer from '../components/Footer'
 import Post from '../components/Post'
-function Home() {
+function BlogHome() {
   return (
     <div>
         {/* Header */}
@@ -23,4 +23,4 @@ function Home() {
   )
 }
 
-export default Home
+export default BlogHome
