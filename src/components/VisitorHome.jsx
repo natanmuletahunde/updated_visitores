@@ -252,37 +252,39 @@ const VisitorHome = () => {
           </div>
         </section>
 
+      
         {/* New Bottom Section */}
-        <section className=" py-6 flex justify-center items-center">
-          <div className="max-w-2xl p-8 bg-white rounded-lg shadow-lg">
-            <h3 className="text-2xl font-bold mb-4 text-center">
-              Learn More About Football
-            </h3>
-            <h6 className="text-base text-center">
-              Football, known as the beautiful game, is more than just a sport.
-              It’s a global phenomenon that unites people across different
-              cultures and continents. Whether its the thrill of a last-minute
-              goal, the electrifying atmosphere of a packed stadium, or the
-              passion of millions of fans, football has an unparalleled ability
-              to inspire and bring people together. Understanding football goes
-              beyond knowing the rules of the game. It involves appreciating the
-              history of legendary clubs, analyzing the strategies employed by
-              top managers, and recognizing the skill and dedication of players
-              who spend countless hours perfecting their craft. From grassroots
-              football in small communities to the grand stage of the World Cup,
-              the sport has the power to shape identities and create lifelong
-              memories. Football is also a reflection of society, with stories
-              of triumph, adversity, and the pursuit of greatness. By diving
-              deeper into the world of football, you can gain insights into the
-              socio-economic and cultural impact of the sport, explore the
-              evolution of tactics and playing styles, and discover the stories
-              behind some of the most iconic moments in football history.
-              Whether you are a seasoned fan or new to the game, learning more
-              about football will enrich your understanding and enhance your
-              enjoyment of the sport.
-            </h6>
-          </div>
-        </section>
+<section className="py-6 flex justify-center items-center">
+  <div className="max-w-2xl p-8 bg-white rounded-lg shadow-lg transform transition-transform duration-300 hover:scale-105">
+    <h3 className="text-2xl font-bold mb-4 text-center">
+      Learn More About Football
+    </h3>
+    <h6 className="text-base text-center">
+      Football, known as the beautiful game, is more than just a sport.
+      It’s a global phenomenon that unites people across different
+      cultures and continents. Whether it is the thrill of a last-minute
+      goal, the electrifying atmosphere of a packed stadium, or the
+      passion of millions of fans, football has an unparalleled ability
+      to inspire and bring people together. Understanding football goes
+      beyond knowing the rules of the game. It involves appreciating the
+      history of legendary clubs, analyzing the strategies employed by
+      top managers, and recognizing the skill and dedication of players
+      who spend countless hours perfecting their craft. From grassroots
+      football in small communities to the grand stage of the World Cup,
+      the sport has the power to shape identities and create lifelong
+      memories. Football is also a reflection of society, with stories
+      of triumph, adversity, and the pursuit of greatness. By diving
+      deeper into the world of football, you can gain insights into the
+      socio-economic and cultural impact of the sport, explore the
+      evolution of tactics and playing styles, and discover the stories
+      behind some of the most iconic moments in football history.
+      Whether you are a seasoned fan or new to the game, learning more
+      about football will enrich your understanding and enhance your
+      enjoyment of the sport.
+    </h6>
+  </div>
+</section>
+
       </main>
 
       <Footer />
