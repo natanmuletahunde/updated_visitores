@@ -30,6 +30,33 @@ const Events = () => {
       });
   }, []);
 
+  const websites = [
+    {
+      description: "FIFA's official site provides the latest news, scores, and event information from the world of football.",
+      url: "https://www.fifa.com/"
+    },
+    {
+      description: "UEFA champions league provides official updates, live matches, and in-depth coverage of the tournament.",
+      url: "https://www.uefa.com/"
+    },
+    {
+      description: "Premier League's official site for the latest on the English football league, including news, fixtures, and results.",
+      url: "https://www.premierleague.com/"
+    },
+    {
+      description: "La Liga official website provides the latest on Spanish football, including scores, news, and fixtures.",
+      url: "https://www.laliga.com/en-GB"
+    },
+    {
+      description: "Serie A provides official updates and coverage of the top football league in Italy.",
+      url: "https://www.legaseriea.it/en"
+    },
+    {
+      description: "Bundesliga's official site offers news, fixtures, and live scores from Germany's top football league.",
+      url: "https://www.bundesliga.com/en/bundesliga"
+    }
+  ];
+
   return (
     <div className="flex flex-col min-h-screen">
       <Header />
@@ -48,26 +75,20 @@ const Events = () => {
               />
             ))}
           </div>
-          
         
           <div className="mt-12">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {[
-                "Football is a simple game. 22 men chase a ball for 90 minutes and at the end, the Germans always win. - Gary Lineker",
-                "Some people believe football is a matter of life and death. I am very disappointed with that attitude. I can assure you it is much, much more important than that. - Bill Shankly",
-                "You have to show up in the World Cup, and in the World Cup anything can happen. - Lionel Messi",
-                "I learned all about life with a ball at my feet. - Ronaldinho",
-                "In football, the worst blindness is only seeing the ball. - Nelson Falcão Rodrigues",
-                "The more difficult the victory, the greater the happiness in winning. - Pelé"
-              ].map((quote, index) => (
+              {websites.map((website, index) => (
                 <div
                   key={index}
                   className="bg-white p-6 rounded-lg shadow-lg transform transition duration-300 ease-in-out hover:scale-105"  // Add hover animation
                 >
-                  <p className="text-gray-700 mb-4">{quote}</p>
-                  <button className="bg-gray-800 text-white px-4 py-2 rounded hover:bg-gray-800">
-                    Learn More
-                  </button>
+                  <p className="text-gray-700 mb-4">{website.description}</p>
+                  <a href={website.url} target="_blank" rel="noopener noreferrer">
+                    <button className="bg-gray-800 text-white px-4 py-2 rounded hover:bg-gray-800">
+                      Learn More
+                    </button>
+                  </a>
                 </div>
               ))}
             </div>
